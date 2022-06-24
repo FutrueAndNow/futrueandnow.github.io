@@ -11,4 +11,4 @@ function createtime() {
   document.getElementById("timeDate").innerHTML = "本站跑了 "+dnum+" 天 ";
   document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒惹!OvO";
 }
-setInterval("createtime()",1000);
+setInterval("createtime()",250);
